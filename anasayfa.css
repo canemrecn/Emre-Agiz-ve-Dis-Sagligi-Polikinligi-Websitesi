@@ -1,0 +1,65 @@
+body {
+    scroll-behavior: smooth;
+
+}
+h3 {
+    position: absolute;
+    bottom: 8%;
+    left: 69%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+/* Karusel container'ı ortalamak için */
+#carouselExampleDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Sayfanın yüksekliği kadar yapar, istediğiniz yüksekliği ayarlayabilirsiniz */
+
+}
+/* Karusel içeriği sağdan ve soldan ortalamak için */
+.carousel-inner {
+    text-align: center;
+
+    border: 10px solid #000000;
+}
+/* Resimleri sağdan ve soldan tam ortalamak için */
+.carousel-item img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Kartların çerçeve rengi */
+.card {
+    border: 10px solid #000000; /* Örnek bir mavi çerçeve rengi */
+}
+
+/* Kart başlığı rengi */
+.card-title {
+    color: #ff0000; /* Örnek bir metin rengi */
+}
+
+/* Kart içeriği rengi */
+.card-text {
+    color: #000000; /* Örnek bir metin rengi */
+}
+
+/* Kart arka plan rengi */
+.card-body {
+    background-color: rgba(245, 222, 179, 0.219); /* Örnek bir arka plan rengi */
+}
+#contact-info {
+    background-color: rgba(245, 222, 179, 0.219);
+    padding: 20px;
+    border: 10px solid #000000;
+}
+
+#contact-info h4 {
+    color: #000000;
+}
+
+#contact-info p {
+    color: #000000;
+}
+
